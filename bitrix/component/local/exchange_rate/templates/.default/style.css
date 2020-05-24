@@ -1,0 +1,10 @@
+.currency_success {
+    background-color: yellow;
+    text-align: center;
+}
+
+.currency_error {
+    font-weight: bold;
+    background-color: orangered;
+    text-align: center;
+}
