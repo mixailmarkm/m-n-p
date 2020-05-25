@@ -17,7 +17,7 @@ require $_SERVER["DOCUMENT_ROOT"] . "/local/vendor/autoload.php";
 
 Файл autoload.php предварительно формируется с помощью "composer" и файла composer.json со следующим содержимым:
 
-{ "autoload": { "psr-4": { "mark\\": "local/mark/" } } }
+{ "autoload": { "psr-4": { "mark\\\\": "local/mark/" } } }
 
 Вид параметров методов класса продемонстрирован в комментариях кода
 
